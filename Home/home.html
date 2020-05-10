@@ -7,39 +7,6 @@
 </head>
 
 <body>
-
-    <!-- 
-    <script>
-		var i = 0; // Start point
-		var images = [];
-		var time = 1000;
-
-		// Image List
-		images[0] = 'image1.jpg';
-		images[1] = 'image2.jpg';
-		images[2] = 'image3.jpg';
-		images[3] = 'image4.jpg';
-
-		// Change Image
-		function changeImg() {
-			document.slide.src = images[i];
-
-			if (i < images.length - 1) {
-				i++;
-			} else {
-				i = 0;
-			}
-
-			setTimeout("changeImg()", time);
-		}
-
-		window.onload = changeImg;
-
-    </script>
-
-    <img name="slide" width="400" height="200">
--->
-
     <header class="menu-principal">
         <main>
             <div class="header-1">
@@ -92,15 +59,44 @@
                         <a href="../Como Começar/comocomecar.html">COMO COMEÇAR</a>
                     </li>
                     <li>
-                        <a href="../Sobre Nós/sobrenos.html">SOBRE NÓS</a>                        
+                        <a href="../Sobre Nós/sobrenos.html">SOBRE NÓS</a>
                     </li>
                 </ul>
             </div>
         </div>
     </main>
 
-    <img class="govegan" src="./imagens/govegan.png">
+    <!--    <img class="govegan" src="./imagens/govegan.png"> -->
+    <script>
+        var i = 0; // Start point
+        var images = [];
+        var time = 1000;
 
+        // Image List
+        images[0] = './imagens/imagem1.jpg';
+        images[1] = './imagens/imagem2.jpg';
+        images[2] = './imagens/imagem3.jpg';
+        images[3] = './imagens/imagem4.jpg';
+
+        // Change Image
+        function changeImg() {
+            document.slide.src = images[i];
+
+            if (i < images.length - 1) {
+                i++;
+            } else {
+                i = 0;
+            }
+
+            setTimeout("changeImg()", time);
+        }
+
+        window.onload = changeImg;
+
+    </script>
+
+    <img name="slide" width="1000" height="600">
+    
 </body>
 
 </html>
