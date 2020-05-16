@@ -5,6 +5,10 @@
     background-color: #88bf40;
 }
 
+.menu-principal ul {
+    margin: 0px;
+}
+
 .logo {
     width: 250px;
     height: 40px;
