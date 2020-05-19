@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/calculo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>Cálculo</title>
+
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./imagens/logo oficial.png">
+
+                </div>
+
+                <div class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/Mundo-sustent%C3%A1vel-112567143775018/?modal=admin_todo_tour"
+                                target="_blank">
+                                <img title="facebook" alt="facebook" src="./imagens/Facebook.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/mundosustentavel8/" target="_blank">
+                                <img title="instagram" alt="instagram" src="./imagens/instagram.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/49126255/admin/" target="_blank">
+                                <img title="linkedin" alt="linkedin" src="./imagens/Linkedin.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Mundosustentve3" target="_blank">
+                                <img title="twitter" alt="twitter" src="./imagens/Twitter.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <main class="menu-2">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="./home.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="./veganismo.html">VEGANISMO</a>
+                    </li>
+                    <li>
+                        <a href="./cenarioatual.html">CENÁRIO ATUAL</a>
+                    </li>
+                    <li>
+                        <a href="./comocomecar.html">COMO COMEÇAR</a>
+                    </li>
+                    <li>
+                        <a href="./sobrenos.html">SOBRE NÓS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="borda">
+        <p class="click">Click no botão para calcular o seu gasto de água.</p>
+
+        <div class="bot">
+            <button onclick="botão()">Calcule</button>
+        </div>
+
+        <p class="result-edit">Resultado:</p>
+
+        <div class="result-edit">
+            <p id="resultado"></p>
+            <p id="resultado2"></p>
+        </div>
+    </div>
+
+    <p class="documentarios">Indicamos esses documentários para te motivar a diminuir o consumo de carne:</p>
+
+    <div class="imgs">
+        <img class="img-1" src="./imagens/img1.jpg">
+
+        <img class="img-2" src="./imagens/img2.jpg">
+
+        <img class="img-3" src="./imagens/img3.jpeg">
+    </div>
+
+    <div class="textos">
+        <p class="textos-2">A carne é fraca é um documentário sobre a indústria da carne brasileira e demonstrar seus
+            impactos com a natureza, os animais e a nossa saúde.</p>
+
+        <p class="textos-2">What the Health é o filme de acompanhamento inovador dos criadores do premiado documentário
+            Cowspiracy. O filme expõe a colusão e a corrupção no governo e nas grandes empresas que nos estão custando
+            trilhões de dólares em saúde e nos deixando doentes.</p>
+
+        <p class="textos-2">Terráqueos mostra que mais de 150 bilhões de animais são abatidos todos os anos. Apenas para
+            o nosso prazer. É hora de abrir os olhos. Temos de enfrentar a verdade feia e começar a viver uma vida mais
+            compassiva.</p>
+    </div>
+
+    <script>
+
+        function botão() {
+            var carne = parseFloat(window.prompt('Quantos quilos de carne você consumiu na última semana?'));
+
+            var frango = parseFloat(window.prompt('Quantos quilos de frango você consumiu na última semana?'));
+
+            var cc = carne * 15400
+            var cf = frango * 4300
+            var s = cc + cf
+            var banho = 135
+            var cb = Math.round(s / banho)
+
+            var tex1 = 'Você gastou '
+            var tex2 = ' mil litros de água.'
+            var tex3 = 'Isso é equivalente à '
+            var tex4 = ' banhos de ducha por 15 minutos, com o registro meio aberto.'
+
+            document.getElementById('resultado').textContent = tex1 + s + tex2
+            document.getElementById('resultado2').textContent = tex3 + cb + tex4
+        }
+
+    </script>
+
+</body>
+
+</html>
