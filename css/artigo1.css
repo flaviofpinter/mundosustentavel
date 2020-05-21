@@ -145,10 +145,10 @@ body {
     color: #000000;
 }
 
-.img2artigo {
+.imagem2artigo {    /*img2artigo*/ 
     position: absolute;
     width: 650px;
-    height: 1271px;
+    height: 1000px; /* 1271px; */
     top: 2250px;
     left: 43px;
 }
@@ -174,7 +174,7 @@ body {
     width: 1225px;
     height: 752px;
     left: 25px;
-    top: 1510px;
+    top: 1540px; /* 1510px; */
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -194,19 +194,40 @@ body {
     top: 3750px;
 }
 
-.textofinal {
+.textofinal1 {
     position: absolute;
-    width: 1199px;
-    height: 552px;
-    left: 35px;
-    top: 1850px;
+    width: 1268px;
+    height: 97px;
+    left: 45px;
+    top: 3900px;
     font-family: Abel;
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 72px;
     line-height: 92px;
     display: flex;
     align-items: center;
     text-align: center;
     color: #000000;
+    background-color: #f0f0f0;
+    border-radius: 35px; 
+}
+
+.textofinal2 {
+    position: absolute;
+    width: 1268px;
+    height: 97px;
+    left: 23%;
+    top: 4000px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 92px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    color: #000000;
+    background-color: #f0f0f0;
+    border-radius: 35px;
 }

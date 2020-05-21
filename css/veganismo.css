@@ -1,11 +1,8 @@
 ﻿.menu-principal {
     width: 100%;
     height: 60px;
-    background-color: #88bf40;
-}
-
-.menu-principal ul {
-    margin: 0px;
+    background-color: #009933;
+    font-family: 'Abel', sans-serif;
 }
 
 .logo {
@@ -41,6 +38,7 @@ body {
 
 .menu {
     margin-left: 20%;
+    font-family: 'Abel', sans-serif;
 }
 
 .menu-2 {
@@ -59,12 +57,18 @@ body {
 
 .menu ul li:hover {
     border-bottom: 3px solid #FF6600;
+    font-family: Arial;
 }
 
 .menu ul li a:hover {
     color: #FF6600;
-    
+    font-family: Arial;
 }
+
+.menu-principal ul {
+    margin: 0px;
+}
+
 
 
 .img1 {
@@ -80,9 +84,9 @@ body {
     width: 500px;
     height: 300px;
     left: 600px;
-    top: 0px;
+    top: 20px;
     font-family: Abel;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 50px;
     color: #FF6600;
 }
@@ -92,11 +96,11 @@ body {
     width: 700px;
     height: 50px;
     left: 595px;
-    top: 230px;
+    top: 250px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 47px;
     color: #000000;
 }
@@ -107,11 +111,11 @@ body {
     width: 1255px;
     height: 100px;
     left: 70px;
-    top: 130px;
+    top: 110px;
     font-family: Abel;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 45px;
     line-height: 61px;
     text-indent: 34px;
     text-decoration-line: underline;
@@ -123,9 +127,9 @@ body {
     width: 500px;
     height: 300px;
     left: 100px;
-    top: 150px;
+    top: 130px;
     font-family: Abel;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 50px;
     color: #FF6600;
 
@@ -136,7 +140,7 @@ body {
     width: 200px;
     height: 100px;
     left: 15px;
-    top: -50px;
+    top: -100px;
 }
 
 
@@ -145,7 +149,7 @@ body {
     width: 20px;
     height: 30px;
     left: 450px;
-    top: -150px;
+    top: -200px;
 }
 
 
@@ -154,7 +158,7 @@ body {
     width: 20px;
     height: 30px;
     left: 900px;
-    top: -180px;
+    top: -230px;
 }
 
 
@@ -165,11 +169,11 @@ body {
     width: 1200px;
     height: 3200px;
     left: 70px;
-    top: 1350px;
-    font-family: Abel;
+    top: 1260px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 51px;
     text-align: justify;
     color: #000000;
@@ -180,11 +184,11 @@ body {
     width: 1200px;
     height: 3200px;
     left: 70px;
-    top: 1650px;
-    font-family: Abel;
+    top: 1500px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 51px;
     text-align: justify;
     color: #000000;
@@ -195,11 +199,11 @@ body {
     width: 1200px;
     height: 7000px;
     left: 70px;
-    top: 1590px;
-    font-family: Abel;
+    top: 1180px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 51px;
     text-align: justify;
     color: #000000;
@@ -210,11 +214,11 @@ body {
     width: 1200px;
     height: 3200px;
     left: 70px;
-    top: 3050px;
-    font-family: Abel;
+    top: 2600px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 51px;
     text-align: justify;
     color: #000000;
@@ -226,11 +230,11 @@ body {
     width: 1200px;
     height: 3200px;
     left: 70px;
-    top: 3580px;
-    font-family: Abel;
+    top: 2980px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 51px;
     text-align: justify;
     color: #000000;
@@ -243,11 +247,11 @@ body {
     width: 1200px;
     height: 3200px;
     left: 70px;
-    top: 3940px;
-    font-family: Abel;
+    top: 3280px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 51px;
     text-align: justify;
     color: #000000;
@@ -259,7 +263,7 @@ body {
     width: 1258px;
     height: 340px;
     left: 40px;
-    top: 4500px;
+    top: 3720px;
 }
 
 .pa3 {
@@ -267,11 +271,11 @@ body {
     width: 668px;
     height: 752px;
     left: 79px;
-    top: 4888px;
-    font-family: Abel;
+    top: 4100px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 46px;
     text-align: justify;
     color: #000000;
@@ -282,18 +286,19 @@ body {
     position: absolute;
     width: 435px;
     height: 423px;
-    left: 850px;
-    top: 4888px;
-    font-family: Abel;
+    left: 800px;
+    top: 4143px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
-    line-height: 46px;
+    line-height: 44px;
     text-align: justify;
     color: #000000;
-    border: 1px;
+    border: -10px;
     background-color: #b3ffb3;
     border-radius: 5px;
+    padding: 25px;
 }
 
 .titulo3 {
@@ -301,7 +306,7 @@ body {
     width: 500px;
     height: 61px;
     left: 80px;
-    top: 2870px;
+    top: 2400px;
     font-family: Abel;
     font-size: 35px;
     line-height: 50px;
@@ -313,7 +318,7 @@ body {
     width: 1216px;
     height: 507px;
     left: 65px;
-    top: 5930px;
+    top: 4960px;
 }
 
 
