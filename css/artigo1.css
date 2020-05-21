@@ -209,25 +209,32 @@ body {
     align-items: center;
     text-align: center;
     color: #000000;
-    background-color: #f0f0f0;
+    background-color: #FFFFFF;
     border-radius: 35px; 
+}
+
+.divtextofinal2 {
+    position: absolute;
+    width: 551px;
+    height: 97px;
+    left: 444px;
+    top: 4050px;
+    background: #FFFFFF;
+    border-radius: 35px;
 }
 
 .textofinal2 {
     position: absolute;
-    width: 1268px;
-    height: 97px;
-    left: 23%;
-    top: 4000px;
+    width: 551px;
+    height: 100px;
+    left: -10px;
+    top: -50px;
     font-family: Abel;
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
     line-height: 92px;
-    display: flex;
     align-items: center;
     text-align: center; 
     color: #000000;
-    background-color: #f0f0f0;
-    border-radius: 35px;
 }
