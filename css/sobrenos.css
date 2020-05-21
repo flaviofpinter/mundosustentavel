@@ -51,18 +51,18 @@ body {
     display: inline-block;
     color: #24a81f;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
 .menu ul li:hover {
     border-bottom: 3px solid rgb(228, 198, 63);
-    font-family: Arial;
+    font-family: Abel;
 }
 
 .menu ul li a:hover {
     color: rgb(228, 198, 63);
-    font-family: Arial;
+    font-family: Abel;
 }
 
 .menu-principal ul {

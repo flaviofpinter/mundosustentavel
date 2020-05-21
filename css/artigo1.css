@@ -57,12 +57,12 @@ body {
 
 .menu ul li:hover {
     border-bottom: 3px solid #FF6600;
-    font-family: Arial;
+    font-family: Abel;
 }
 
 .menu ul li a:hover {
     color: #FF6600;
-    font-family: Arial;
+    font-family: Abel;
 }
 
 .menu-principal ul {
@@ -194,12 +194,22 @@ body {
     top: 3750px;
 }
 
+.divtextofinal1 {
+    position: absolute;
+    width: 1190px;
+    height: 97px;
+    left: 105px;
+    top: 3950px;
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+
 .textofinal1 {
     position: absolute;
     width: 1268px;
     height: 97px;
-    left: 45px;
-    top: 3900px;
+    left: 30px;
+    top: -50px;
     font-family: Abel;
     font-style: normal;
     font-weight: normal;
