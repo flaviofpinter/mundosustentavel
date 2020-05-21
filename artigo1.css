@@ -1,0 +1,212 @@
+﻿.menu-principal {
+    width: 100%;
+    height: 60px;
+    background-color: #009933;
+    font-family: 'Abel', sans-serif;
+}
+
+.logo {
+    width: 250px;
+    height: 40px;
+    margin-left: 15%;
+    float: left;
+    margin-top: 10px;
+}
+
+body {
+    margin: 0px;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.redes-sociais {
+    margin-right: 15%;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu {
+    margin-left: 20%;
+    font-family: 'Abel', sans-serif;
+}
+
+.menu-2 {
+    height: 80px;
+    border-bottom: 3px solid #f0f0f0;
+    padding: 16px;
+}
+
+.menu ul li a {
+    display: inline-block;
+    color: #8080ff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #FF6600;
+    font-family: Arial;
+}
+
+.menu ul li a:hover {
+    color: #FF6600;
+    font-family: Arial;
+}
+
+.menu-principal ul {
+    margin: 0px;
+}
+
+.titulopag {
+    position: absolute;
+    width: 143px;
+    height: 82px;
+    left: 300px;
+    top: 100px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 82px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EA660C;
+}
+
+.tituloartigo {
+    position: absolute;
+    width: 1172px;
+    height: 80px;
+    left: 80px;
+    top: 150px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EA660C;
+
+}
+
+.img1artigo {
+    position: absolute;
+    width: 1000px;
+    height: 662px;
+    left: 170px;
+    top: 440px;
+}
+
+.dica1 {
+    position: absolute;
+    width: 1225px;
+    height: 872px;
+    left: 25px;
+    top: 470px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+}
+
+.dica2 {
+    position: absolute;
+    width: 1225px;
+    height: 817px;
+    left: 25px;
+    top: 845px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 51px;
+    text-align: justify;
+    color: #000000;
+}
+
+.img2artigo {
+    position: absolute;
+    width: 650px;
+    height: 1271px;
+    top: 2250px;
+    left: 43px;
+}
+
+.dica3 {
+    position: absolute;
+    width: 527px;
+    height: 3000px;
+    left: 370px;
+    top: 1105px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 51px;
+    text-align: justify;
+    color: #000000;
+}
+
+
+.dica4 {
+    position: absolute;
+    width: 1225px;
+    height: 752px;
+    left: 25px;
+    top: 1510px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+}
+
+.img3artigo {
+    position: absolute;
+    width: 1268px;
+    height: 552px;
+    left: 45px;
+    top: 3750px;
+}
+
+.textofinal {
+    position: absolute;
+    width: 1199px;
+    height: 552px;
+    left: 35px;
+    top: 1850px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 92px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
