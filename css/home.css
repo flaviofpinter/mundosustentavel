@@ -1,16 +1,14 @@
 ﻿.menu-principal {
     width: 100%;
-    height: 60px;
+    height: 4vw;
     background-color: #009933;
     font-family: 'Abel', sans-serif;
 }
 
 .logo {
-    width: 250px;
-    height: 40px;
     margin-left: 15%;
     float: left;
-    margin-top: 10px;
+    margin-top: 0.7vw;
 }
 
 body {
@@ -18,11 +16,11 @@ body {
 }
 
 .redes-sociais ul li {
-    margin-left: 25px;
+    margin-left: 1.7vw;
     display: inline-block;
     float: right;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 1vw;
 }
 
 .redes-sociais {
@@ -32,26 +30,29 @@ body {
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
-    margin-left: 15px;
-    height: 50px;
+    margin-left: 1vw;
+    height: 3vw;
 }
 
 .menu {
-    margin-left: 20%;
     font-family: 'Abel', sans-serif;
 }
 
 .menu-2 {
-    height: 80px;
-    border-bottom: 3px solid #f0f0f0;
-    padding: 16px;
+    height: 4.7vw;
+    border-bottom: 3px solid #f0f0f0;   
+    padding: 1vw;
+}
+
+.header-2 {
+    text-align:center;
 }
 
 .menu ul li a {
     display: inline-block;
     color: #8080ff;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.65vw;
     text-transform: uppercase;
 }
 
