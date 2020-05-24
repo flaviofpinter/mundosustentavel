@@ -1,16 +1,14 @@
 ﻿.menu-principal {
     width: 100%;
-    height: 60px;
+    height: 4vw;
     background-color: #009933;
     font-family: 'Abel', sans-serif;
 }
 
 .logo {
-    width: 250px;
-    height: 40px;
     margin-left: 15%;
     float: left;
-    margin-top: 10px;
+    margin-top: 0.7vw;
 }
 
 body {
@@ -18,11 +16,11 @@ body {
 }
 
 .redes-sociais ul li {
-    margin-left: 25px;
+    margin-left: 1.7vw;
     display: inline-block;
     float: right;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 1vw;
 }
 
 .redes-sociais {
@@ -32,26 +30,29 @@ body {
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
-    margin-left: 15px;
-    height: 50px;
+    margin-left: 1vw;
+    height: 3vw;
 }
 
 .menu {
-    margin-left: 20%;
     font-family: 'Abel', sans-serif;
 }
 
 .menu-2 {
-    height: 80px;
-    border-bottom: 3px solid #f0f0f0;
-    padding: 16px;
+    height: 4.7vw;
+    border-bottom: 3px solid #f0f0f0;   
+    padding: 1vw;
+}
+
+.header-2 {
+    text-align:center;
 }
 
 .menu ul li a {
     display: inline-block;
     color: #8080ff;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.65vw;
     text-transform: uppercase;
 }
 
@@ -69,234 +70,73 @@ body {
     margin: 0px;
 }
 
-
-.titulo1 {
-    position: absolute;
-    width: 2000px;
-    height: 61px;
-    left: 50px;
-    top: 220px;
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 50px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.titulo-1 h1 {
+    font-size: 2.5vw;
     color: #FF6600;
-}
-
-.nomedareceita1 {
-    position: absolute;
-    width: 744px;
-    height: 61px;
-    left: 500px;
-    top: 300px;
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 61px;
-    display: flex;
-    color: #009933;
+    font-family: 'Abel', sans-serif;
+    margin-left: 12vw;
+    margin-top: 5vw;
 
 }
 
-.img1 {
-    position: absolute;
-    width: 967px;
-    height: 587px;
-    left: 280px;
-    top: 420px;
-}
-
-.img2 {
-    position: absolute;
-    width: 505px;
-    height: 154px;
-    left: 430px;
-    top: 900px;
-}
-
-.ingredientes1 {
-    position: absolute;
-    width: 272px;
-    height: 61px;
-    left: 270px;
-    top: 540px;
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    line-height: 61px;
-    color: #EA660C;
-}
-
-.lista1 {
-    position: absolute;
-    width: 949px;
-    height: 682px;
-    left: 50px;
-    top: 580px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 27px;
-    line-height: 61px;
-    text-indent: 34px;
-    color: #000000;
-}
-
-.massa1 {
-    position: absolute;
-    width: 137px;
-    height: 61px;
-    left: 300px;
-    top: 950px;
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    line-height: 61px;
-    color: #EA660C;
-}
-
-.lista2 {
-    position: absolute;
-    width: 949px;
-    height: 380px;
-    left: 50px;
-    top: 990px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 27px;
-    line-height: 61px;
-    text-indent: 34px;
-    color: #000000;
-}
-
-.mododepreparo1 {
-    position: absolute;
-    width: -500px;
-    height: 61px;
-    left: 500px;
-    top: 2400px;
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 61px;
-    color: #EA660C;
-}
-
-.lista3 {
-    position: absolute;
-    width: 949px;
-    height: 380px;
-    left: 50px;
-    top: 1260px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 27px;
-    line-height: 61px;
-    text-indent: 34px;
-    color: #000000;
-}
-
-.nomedareceita2 {
-    position: absolute;
-    width: -10000px;
-    height: 61px;
-    left: 470px;
-    top: 3550px;
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 61px;
-    display: flex;
-    align-items: center;
+.titulo-2 h1 {
+    font-size: 2.5vw;
+    color: #009933;;
+    font-family: 'Abel', sans-serif;
     text-align: center;
-    color: #009933;
+    margin-top: 5vw;
 }
 
-
-.img3 {
-    position: absolute;
-    width: 967px;
-    height: 587px;
-    left: 290px;
-    top: 3670px;
+.titulo-3 h1 {
+    font-size: 2.5vw;
+    color: #FF6600;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    margin-top: 3vw;
 }
 
-.img4 {
-    position: absolute;
-    width: 505px;
-    height: 174px;
-    left: 460px;
-    top: 4170px;
+.img-1 img{
+    width: 40vw;
+    margin-left: 29.5vw;
+    margin-top: 3vw;
 }
 
-.ingredientes2 {
-    position: absolute;
-    width: 272px;
-    height: 61px;
-    left: 280px;
-    top: 2180px;
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    line-height: 61px;
-    color: #EA660C;
+.img-2 img {
+    width: 25vw;
+    margin-left: 37vw;
+    margin-top: 3vw;
 }
 
-.lista4 {
-    position: absolute;
-    width: 1078px;
-    height: 459px;
-    left: 50px;
-    top: 4450px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 27px;
-    line-height: 61px;
-    text-indent: 34px;
-    color: #000000;
+.lista li {
+    font-size: 2vw;
+    text-align: justify;
+    text-indent: 2em;
+    font-family: 'Abel', sans-serif;
+    margin-left: 12vw;
+    margin-right: 12vw;
 }
 
-.mododepreparo2 {
-    position: absolute;
-    width: 500px;
-    height: 61px;
-    left: 260px;
-    top: 2480px;
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    line-height: 61px;
-    color: #EA660C;
+.lista p {
+    font-size: 2vw;
+    text-align: justify;
+    font-family: 'Abel', sans-serif;
+    margin-left: 17.5vw;
+    margin-right: 12vw;
+
 }
 
-.lista5 {
-    position: absolute;
-    width: 949px;
-    height: 380px;
-    left: 50px;
-    top: 5070px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 27px;
-    line-height: 61px;
-    text-indent: 34px;
-    color: #000000;
+.lista {
+    margin-top: 3vw;
 }
 
+.img-3 img{
+    width: 40vw;
+    margin-left: 29.5vw;
+    margin-top: 3vw;
+}
 
-
+.img-4 img {
+    width: 25vw;
+    margin-left: 37vw;
+    margin-top: 3vw;
+}

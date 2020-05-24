@@ -12,29 +12,31 @@
         <main>
             <div class="header-1">
                 <div class="logo">
-                    <img src="./imagens/logo oficial.png" style = "width: 24vw; height: 3vw;">
+                    <img src="./imagens/logo oficial.png" style="width: 24vw; height: 3vw;">
                 </div>
 
                 <div class="redes-sociais">
                     <ul>
                         <li>
-                            <a href="https://www.facebook.com/Mundo-sustent%C3%A1vel-112567143775018/?modal=admin_todo_tour" target="_blank">
-                                <img title="facebook" alt="facebook" src="./imagens/facebook.png" style = "height:2.2vw">
+                            <a href="https://www.facebook.com/Mundo-sustent%C3%A1vel-112567143775018/?modal=admin_todo_tour"
+                                target="_blank">
+                                <img title="facebook" alt="facebook" src="./imagens/facebook.png" style="height:2.2vw">
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/mundosustentavel8/" target="_blank">
-                                <img title="instagram" alt="instagram" src="./imagens/instagram.png" style = "height:2.2vw">
+                                <img title="instagram" alt="instagram" src="./imagens/instagram.png"
+                                    style="height:2.2vw">
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/company/49126255/admin/" target="_blank">
-                                <img title="linkedin" alt="linkedin" src="./imagens/linkedin.png" style = "height:2.2vw">
+                                <img title="linkedin" alt="linkedin" src="./imagens/linkedin.png" style="height:2.2vw">
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/Mundosustentve3" target="_blank">
-                                <img title="twitter" alt="twitter" src="./imagens/twitter.png" style = "height:2.2vw">
+                                <img title="twitter" alt="twitter" src="./imagens/twitter.png" style="height:2.2vw">
                             </a>
                         </li>
                     </ul>
@@ -65,37 +67,39 @@
             </div>
         </div>
     </main>
-    
-    <header class="js">
-    <script>var i = 0; // Start point
-        var images = [];
-        var time = 1000;
 
-        // Image List
-        images[0] = './imagens/imagem1js.jpg';
-        images[1] = './imagens/imagem2js.jpg';
-        images[2] = './imagens/imagem3js.jpg';
-        images[3] = './imagens/imagem4js.jpg';
-        
+    <div class="js">
+        <script>var i = 0; // Start point
+            var images = [];
+            var time = 4000;
+
+            // Image List
+            images[0] = './imagens/imagem1js.jpg';
+            images[1] = './imagens/imagem2js.jpg';
+            images[2] = './imagens/imagem3js.jpg';
+            images[3] = './imagens/imagem4js.jpg';
 
 
-        // Change Image
-        function changeImg() {
-            document.slide.src = images[i];
 
-            if (i < images.length - 1) {
-                i++;
-            } else {
-                i = 0;
+            // Change Image
+            function changeImg() {
+                document.slide.src = images[i];
+
+                if (i < images.length - 1) {
+                    i++;
+                } else {
+                    i = 0;
+                }
+
+                setTimeout("changeImg()", time);
             }
 
-            setTimeout("changeImg()", time);
-        }
+            window.onload = changeImg;</script>
+        </script>
+    </div>
+    <img name="slide" class="imgS">
 
-        window.onload = changeImg;</script>
-
-    <img name="slide" width="1000" height="600">
-    </header>
 
 </body>
+
 </html>

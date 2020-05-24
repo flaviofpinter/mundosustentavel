@@ -71,10 +71,9 @@ body {
 }
 
 
-.js {
-    position: absolute;
-    width: 1227px;
-    height: -3000px;
-    left: 180px;
-    top: 190px;
+
+.imgS {
+    height: 40vw;
+    width: 60vw;
+    margin-left: 21vw;
 }
