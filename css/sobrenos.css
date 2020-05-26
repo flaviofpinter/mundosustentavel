@@ -78,6 +78,7 @@ body {
 
 .logo-pag img {
     width: 15vw;
+    height: 14vw;
 }
 
 .texto-1 p {
@@ -102,6 +103,7 @@ body {
 .col-1 img {
     border-radius: 15vw;
     width: 12vw;
+    height: 12vw;
     margin-left: 15vw;
     border: 0.15vw solid #000000;
 }

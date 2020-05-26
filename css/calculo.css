@@ -107,9 +107,9 @@ body {
 .imgs img{
     float: left;
     width: 15vw;
-   
-
+    height: 25vw;
 }
+
 .imgs {
     width: 70%;
     display: flex;

@@ -81,6 +81,7 @@ body {
 .img-1 {
     float: left;
     width: 50%;
+    height: 50%;
 
 }
 
@@ -126,6 +127,7 @@ body {
 
 .img-2 img {
     width: 73vw;
+    height: 45vw;
     margin-left: 12vw;
     margin-top: 2vw;
 }

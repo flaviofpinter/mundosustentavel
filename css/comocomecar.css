@@ -97,12 +97,14 @@ body {
 
 .img-1 img{
     width: 40vw;
+    height: 24vw;
     margin-left: 29.5vw;
     margin-top: 3vw;
 }
 
 .img-2 img {
     width: 25vw;
+    height: 9vw;
     margin-left: 37vw;
     margin-top: 3vw;
 }
@@ -131,12 +133,14 @@ body {
 
 .img-3 img{
     width: 40vw;
+    height: 24vw;
     margin-left: 29.5vw;
     margin-top: 3vw;
 }
 
 .img-4 img {
     width: 25vw;
+    height: 9vw;
     margin-left: 37vw;
     margin-top: 3vw;
 }
