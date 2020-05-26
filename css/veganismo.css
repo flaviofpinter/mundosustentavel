@@ -124,7 +124,7 @@ body {
     font-size: 2.5vw;
     float: left;
     margin-left: 12vw;
-    width: 100%;
+    width: 85%;
     margin-top: 5vw;
     font-family: 'Abel', sans-serif;
 }
@@ -181,7 +181,7 @@ body {
 }
 
 .titulo-3 {
-    width: 100%;
+    width: 85%;
     float: left;
     margin-left: 12vw;
     color: #FF6600;
